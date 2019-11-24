@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:100,400,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap&subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="hachome.css">
+    <script src="./hachome.js"></script>
+    <title>HSGS Art Club</title>
+</head>
+<body onload="onLoadMainPage()">
+    <section class="main-page">
+        <div class="header-main-page">
+            <div class="navbar" style="margin-left: -4vw; padding: 0">
+                <div id="nav-icon-mobile" class="nav-icon-mobile" onclick="navTitle()">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                </div>
+                <div id="current-title" class="current-title be-vietnam-font">hoạt động</div>
+            </div>
+            <div id="nav-web" class="be-vietnam-font">
+                <!-- <a href="#topPage"><div id="tin" class="nav-e" onclick="chooseNav('tin')">tin tức</div></a> -->
+                <a href="#topPage"><div id="hoa" class="nav-e" onclick="chooseNav('hoa')">hoạt động</div></a>
+                <a href="#topPage"><div id="veh" class="nav-e" onclick="chooseNav('vec')">về HAC</div></a>
+                <a href="#topPage"><div id="san" class="nav-e" onclick="chooseNav('san')">sản phẩm</div></a>
+                <a href="#topPage"><div id="anh" class="nav-e" onclick="chooseNav('anh')">ảnh</div></a>
+                <div class="contact-icons contact-icons-web">
+                    <span><a href="https://www.facebook.com/HSGSArtClub/">
+                    <img class="facebook-logo" src="./imghd/fb.png"></a></span>
+                    <span><a href="./index.html">
+                    <img class="hac-logo" src="./imghd/hac-nobg.png"></a></span>
+                </div>
+            </div>
+            
+        </div>
+        <div id="body-main-page" class="body-main-page">
+            <div class="nav be-vietnam-font">
+                <!-- <a href="#topPage"><div id="tin" class="nav-e" onclick="chooseNav('tin')">tin tức</div></a> -->
+                <a href="#topPage"><div class="nav-e" onclick="navTitle(); chooseNav('hoa')">hoạt động</div></a>
+                <a href="#topPage"><div class="nav-e" onclick="navTitle(); chooseNav('vec')">về HAC</div></a>
+                <a href="#topPage"><div class="nav-e" onclick="navTitle(); chooseNav('san')">sản phẩm</div></a>
+                <a href="#topPage"><div class="nav-e" onclick="navTitle(); chooseNav('anh')">ảnh</div></a>
+            </div>
+            <p id="topPage" style="font-size: 0"></p>
+            <div id="content-main-page">
+                <div id="hoatdong">
+                
+                <div class="post-web">
+                    <div id="hdtn" class="heading-main-page montserrat-font">HOẠT ĐỘNG THƯỜNG NIÊN</div>
+                    <div id="title-img"><img src="./imghd/hac-logo.jpg" alt="" width="100%"></div>
+                    <div class="leading-text-main-page center be-vietnam-font">Những ngày mới thành lập, câu lạc bộ chỉ đơn thuần biểu diễn ở các sự kiện của nhà trường và thu sản phẩm âm nhạc đăng trên fanpage riêng. Dần dà mãi đến năm 2016, HAC trở nên bùng nổ mạnh mẽ với bước tiến táo bạo, nhiều hoạt động được tổ chức hơn nhằm chia sẻ đam mê nghệ thuật với mọi người xung quanh dưới các hình thức mới mẻ.</div>
+                </div>
+                <div class="title-bar center"><span></span></div>
+            
+                <div class="post-web">
+                    <div class="heading-main-page-left montserrat-font">/ SHOWCASE</div>
+                    <div><img src="./imghd/aumilieu.jpg" alt="" width="100%"></div>
+                    <div class="content-text-main-page be-vietnam-font">Đây là chương trình nghệ thuật được tổ chức hàng năm với các tiết mục đến từ ban Nhạc và các nhóm nhạc khác mời khác, ngoài ra còn có sự hỗ trợ truyền thông và hình ảnh không hề nhỏ từ ban Mĩ Thuật cũng như ban Đối ngoại của HAC. </div>
+                </div>
+                <div class="title-bar center"><span></span></div>
+                
+                <div class="post-web post-web-right">
+                    <div class="heading-main-page-left montserrat-font">/ TRAINING</div>
+                    <div><img src="./imghd/training.png" alt="" width="100%"></div>
+                    <div class="content-text-main-page be-vietnam-font">Khi là thành viên chính thức của ban Nhạc và ban Mĩ thuật HAC, các bạn sẽ có cơ hội được đi giao lưu tập luyện cùng những người bạn cùng đam mê trong ban của mình. </div>
+                <div class="title-bar center"><span></span></div>
+                </div>
+                
+            
+                <div class="flashlight-img"><img src="./imghd/online2.png" alt="" width="100%"></div>
+                <div class="post-web">
+                    <div class="heading-main-page-left montserrat-font">/ HOẠT ĐỘNG ONLINE</div>
+                    <div><img src="./imghd/online1.jpg" alt="" width="100%"></div>
+                    <div class="content-text-main-page be-vietnam-font">Trong các buổi training các thành viên sẽ cùng lên ý tưởng tạo ra những bộ ảnh nghệ thuật hay các sản phẩm âm nhạc để đăng lên facebook page.</div>
+                </div>
+                <div class="title-bar center"><span></span></div>
+
+                <div class="post-web post-web-right">
+                    <div class="heading-main-page-left montserrat-font">/ CÁC HOẠT ĐỘNG KHÁC</div>
+                    <div><img src="./imghd/duca.jpg" alt="" width="100%"></div>
+                    <div class="content-text-main-page be-vietnam-font">Ngoài ra trong năm học, ban Nhạc sẽ có một (vài) buổi cùng nhau đi du ca, ngồi quây quần đầm ấm bên khu phố đi bộ Hồ Gươm.<br>Ban Nhạc HAC cũng khẳng định được vị trí của mình khi nhận được lời mời đi diễn của nhiều dự án tổ chức của các bạn học sinh sinh viên.
+                    </div>
+                </div>
+                <div class="title-bar center"><span></span></div>
+                
+                <div class="post-web">
+                    <div id="danb" class="heading-main-page montserrat-font">DỰ ÁN NỔI BẬT</div>
+                    <div id="danb-img"><img src="./imghd/collab.jpg" alt="" width="100%"></div>
+                    <div class="leading-text-main-page center be-vietnam-font">Không chỉ có những hoạt động thường niên, HAC cũng có những dự án collab với các câu lạc bộ THPT khác</div>
+                </div>
+
+                <div class="grid-prj-web">
+                    <div class="post-web post-web-right">
+                        <div class="heading-main-page-left montserrat-font hover-text">/ KHUNG EXHIBITION (2017)</div>
+                        <div class="hover-pic"><img src="./imghd/khung.png" alt="" width="100%"></div>
+                        <div class="content-text-main-page be-vietnam-font hover-text">Khung Exhibition là dự án nhằm đem lại một cái nhìn hoàn toàn mới lạ cho toàn xã hội về truyện tranh, được tổ chức bởi sự collab giữa ban Mĩ thuật HAC và PTC Media CSP.</div>
+                        <div class="title-bar center"><span></span></div>
+                    </div>
+                    <div class="post-web post-web-right">
+                        <div class="heading-main-page-left montserrat-font hover-text">/ PUER (2019)</div>
+                        <div class="hover-pic"><img src="./imghd/puer.jpg" alt="" width="100%"></div>
+                        <div class="content-text-main-page be-vietnam-font hover-text">“PUER” là dự án nghệ thuật thường niên hướng về tuổi trẻ; đánh dấu sự hợp tác giữa Việt Đức Drama Club, HSGS Art Club và Chu The Medley.</div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <!-- <div id="navF">djfhljksdhfjkhdsjfhjhdsjfdshlkfjhjk</div> -->
+        <div class="footer-main-page">
+            <div id="contact-icons" class="contact-icons" style="display: none;">
+                <span><a href="https://www.facebook.com/HSGSArtClub/">
+                <img class="facebook-logo" src="./imghd/fb.png"></a></span>
+                <span><a href="./index.html">
+                <img class="hac-logo" src="./imghd/hac-nobg.png"></a></span>
+                <span style="margin-bottom: 1.5vw"><a href="https://soundcloud.com/hsgsartclub">
+                <img class="soundcloud-logo" src="./imghd/sc.png"></a></span>
+            </div>
+            <div class="creator-wrapper be-vietnam-font">created by truong ban Nhac HAC 2017</div>
+        </div>
+    </section>
+</body>
+</html>
